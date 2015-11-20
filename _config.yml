@@ -11,7 +11,7 @@ description: Let's make something great.
 # Then, the 'url' is: http://yourname.github.io
 # If your project is placed in another repository as a gh-pages branch, like: https://github.com/yourname/projectname
 # Then, the 'url' is: http://yourname.github.io/projectname
-url: 
+url:  
 
 #
 ###################################
@@ -37,7 +37,7 @@ kramdown:
 owner:
   name: Andy DeVane 
   avatar: avatar.jpg
-  job: "Freelance web developer."
+  job: "Freelance Web Developer/Videographer/Coffee Fiend"
   bio: "I want to work on cool projects with cool people."
   avatar: avatar.jpg
   email: ad.mgld50@gmail.com
