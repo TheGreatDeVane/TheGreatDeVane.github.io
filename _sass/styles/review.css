@@ -1,0 +1,261 @@
+.reviewContent .title {
+	text-align:center;
+	line-height: 1;
+	font-size: 3em;
+	font-weight: normal;
+	letter-spacing: -1px;
+	color: #04bcec;
+	padding-top:20px;
+	padding-bottom:5px;
+	quotes: "\201C" "\201D";
+}
+
+.reviewContent .comments:before , .reviewContent .service:before {
+	content: attr(data-before);
+	font-weight: bold;
+
+}
+
+.reviewContent .comments, .reviewContent .service{
+	font-size:1.5em;
+	width:480px;
+	margin:auto;
+}
+
+.reviewContent .UserImage img {
+	width:80px;
+	height:80px;
+	margin:auto;
+	display:block;
+	-moz-border-radius: 45px;
+	-webkit-border-radius: 45px;
+	margin-top:5px;
+	margin-bottom:20px;
+	border-radius: 45px;
+	box-shadow: 0 0 8px #04bcec;;
+	-webkit-box-shadow: 0 0 8px #04bcec;
+	-moz-box-shadow: 0 0 8px #04bcec;
+	border: 3px solid #04bcec;
+}
+
+.reviewContent .UserName {
+	text-align:center;
+	font-size: 1.5em;
+	color: #6c6c6c;
+
+}
+
+.reviewContent .reviewImage img {
+	display:block;
+	max-width:300px;
+	margin:10px auto;
+}
+
+.reviewContent {
+	font-family: "ProximaNovaCond Light", arial, helvetica, sans-serif;
+}
+
+.reviewContent .reviewAttachmentCaption {
+	font-weight:bold;
+	font-size:1.5em;
+	display:block;
+	margin:auto;
+	width:480px;
+}
+
+.reviewContent .ratingbox .rating.lrg span {
+	font-size:1.5em;
+}
+
+.reviewContent .ratingbox .rating {
+	font-size:1.0em;
+}
+
+.reviewContent .ratingbox .budget {
+	font-size:1.5em;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+.reviewContent .ratingbox .price {
+	border-top: 1px solid #E8E8E8;
+	padding-top:10px;
+	font-size:1em;
+}
+
+.reviewContent .ratingbox {
+	margin-bottom:20px !important;
+}
+
+.reviewContent .backButton {
+	font-size: 1.75em;
+	color: white;
+	background-color: #009ED9;
+	padding: 10px;
+	display: block;
+	margin: auto;
+	width:180px;
+	line-height: 0.9;
+	margin-top: 10px;
+}
+
+.reviewContent .backButton:hover {
+	background-color: #0099cc;
+}
+
+.review_tile {
+	height:245px;
+	width:220px;
+	display: inline-block;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.33);
+	border: none !important;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	padding: 5px;
+	border-radius: 3px;
+	vertical-align:top;
+	margin-right: 8px;
+	margin-bottom: 15px;
+	text-decoration: none;
+        background: #fff;
+}
+
+.recentReviews .review_tile {
+	margin-right: 2px;
+}
+
+.review_tile:hover {
+	-webkit-box-shadow: 2px 9px 30px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 2px 9px 30px rgba(0, 0, 0, 0.4);
+	box-shadow: 2px 9px 30px rgba(0, 0, 0, 0.4);
+}
+
+.review_tile > * {
+
+	color: #616161;
+
+}
+
+.reviewer .reviewer_headline {
+	padding-left:5px;
+	padding-right: 5px;
+
+}
+.review_tile .review_title {
+	text-align:center;
+	font-family: 'ProximaNova Semibold', arial, helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: normal;
+	letter-spacing:-1px;
+	quotes: "“" "”";
+	color: #606060;
+	height: 2.0em;
+	margin: 10px 0 5px 0;
+	overflow: hidden;
+	clear: both;
+}
+
+.review_tile .review_title:before {
+	content: open-quote;
+}
+
+.review_tile .review_title:after {
+	content: close-quote;
+}
+
+.reviewContent .title {
+}
+
+.reviewContent .title:before {
+  content: open-quote;
+}
+
+.reviewContent .title:after {
+  content: close-quote;
+}
+
+.review_tile .review_rating .rating {
+	margin-left: auto;
+	margin-right: auto;
+	width:150px
+}
+
+.review_tile .reviewer {
+	margin-top:10px;
+}
+.review_tile .review_rating {
+	clear:both;
+}
+
+.review_tile .reviewer .reviewer_details, .review_tile .reviewer .reviewer_image {
+	display:block;
+}
+
+.review_tile .reviewer .reviewer_details {
+	padding-top: 20px;
+}
+
+.review_tile .reviewer .reviewer_name {
+	font-weight:bold;
+
+}
+
+img.reviewer_image, .reviewer_image img {
+	-moz-border-radius: 45px;
+	-webkit-border-radius: 45px;
+	border-radius: 45px;
+	box-shadow: 0 0 8px #04bcec;;
+	-webkit-box-shadow: 0 0 8px #04bcec;
+	-moz-box-shadow: 0 0 8px #04bcec;
+	border: 3px solid #04bcec;
+}
+
+.review_tile .reviewer_image img {
+	width:80px;
+	height:80px;
+	display:block;
+	float:left;
+	margin:10px;
+}
+
+.review_tile .reviewer .reviewer_title, .review_tile .reviewer .reviewer_company, .review_tile .reviewer .reviewer_industry {
+	font-size: 0.8em;
+	font-weight:normal;
+}
+
+.review_tile .reviewer_image img {
+	margin:none !important;
+}
+
+.review_agency_name {
+	font-family: 'ProximaNova Semibold', arial, helvetica, sans-serif;
+	overflow: hidden;
+	color: #606060;
+	float: left;
+	font-size: 1.0em;
+	font-weight:normal;
+	line-height:1.4;
+	padding:5px;
+}
+
+.reviews_header h1 {
+  color: #04bcec;
+  font-family: "ProximaNovaCond Light", arial, helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: normal;  
+  line-height: 1;
+  letter-spacing: -1px;
+  padding-top: 10px;
+}
+
+.reviews_filter {
+  border-bottom: 0px;
+  border-top: 0px;
+  margin-bottom: 15px;
+}
+
+.reviews_row {
+  height: 260px;
+  margin-bottom: 25px;
+}

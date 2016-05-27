@@ -1,0 +1,49 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require jquery-ui
+ *= require jqtransform
+ *= require chosen/chosen.min
+ *= require chosen/chosen_overrides
+ *= require slider.min
+ *= require owl.carousel
+ *= require owl.transitions
+ *= require owl.theme
+ *= require tipsy
+ *= require bootstrap
+ *= require dropzone/dropzone
+ *= require cropper
+ *= require medium-editor/medium-editor
+ *= require medium-editor/themes/beagle
+ *= require ./all/agency
+ *= require ./mainsite/main
+ *= require_tree ./all
+ *= require_tree ./mainsite
+ *= require_self
+*/
+
+/*@import url("bootstrap.css");*/
+/*@import url("bootstrap-tables.css");
+@import url("bootstrap-buttons.css");
+@import url("bootstrap-alerts.css");*/
+input.btTxt{
+	padding: 5px 12px;
+}
+
+#header .info {
+	border: none !important;
+	background-color: none !important;
+	width: 800px !important;
+}
+
+.wufoo li {
+	width: 100%;
+	margin: 4%
+}

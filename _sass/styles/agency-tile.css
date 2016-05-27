@@ -1,0 +1,155 @@
+.as-agency-tile {
+	display:inline-block;
+}
+
+.as_agency {
+	overflow:hidden;
+	font-family: 'ProximaNova Bold', arial, helvetica, sans-serif;
+	color: #595959;
+	font-size:16px;
+}
+
+.as_agency a {
+	text-decoration: none;
+}
+
+.as_agency a > * {
+	text-align:left;
+}
+
+.as_agency .agency_rating .stars {
+	display:inline-block;
+	width:6.5em;
+	position:relative;
+	height: 1.0em;
+	background-color: #e0e0e0;
+	float:right;
+}
+
+.as_agency .agency_rating .iVerified {
+	display:inline-block;
+	background: url(/assets/icons.png) 0 -220px no-repeat;
+	text-indent: 25px;
+	cursor: help;
+	padding: 10px;
+}
+
+.as_agency .agency_rating .iNotVerified {
+	display:inline-block;
+	background: url(/assets/icons.png) 0 -467px no-repeat;
+	text-indent: 25px;
+	padding: 10px;
+}
+
+.as_agency .agency_rating .stars .overlay {
+	outline: white solid 1px;
+	background: url('/assets/starsWhite.png') 0 -28px no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+.as_agency .agency_rating .stars .underlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: ##009ED9;
+	z-index: 0;	
+}
+
+.as_agency .agency_about {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 0.60em;
+	color: #666;
+	margin-bottom: 10px;
+	line-height: 1.5;
+	margin-top: 5px;
+	max-height: 45px;
+	overflow: hidden;
+}
+
+.as_agency .agency_name {
+	font-weight: bold;
+	line-height: 1.4;
+	color: #606060;
+	font-size:1.0em;
+	height: 1.3em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.as_agency .agency_services {
+	text-transform: uppercase;
+	line-height: 1.5;
+	margin-bottom: 4px;
+	font-size: 0.55em;
+	height: 25px;
+	overflow:hidden;
+	font-weight:normal;
+	color: #616161;
+}
+
+.as_agency .agency_rating {
+	border: 1px solid #e5e5e5;
+	border-left: none;
+	border-right: none;
+	padding: 10px 2px 10px;
+	line-height:0;
+}
+
+.as_agency {
+	vertical-align:top;
+	display:inline-block;
+	width:220px;
+	height:225px;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.33);
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	margin-right: 8px;
+	background: #ffffff;
+	border-radius: 3px;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+.as_agency:hover {
+	-webkit-box-shadow: 2px 9px 30px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 2px 9px 30px rgba(0, 0, 0, 0.4);
+	box-shadow: 2px 9px 30px rgba(0, 0, 0, 0.4);
+}
+
+#as-widget-tipsy.tipsy {
+	font-size:12px !important;
+	font-family: "ProximaNova", arial, helvetica, sans-serif;
+	padding:5px;
+}
+
+#as-widget-tipsy.tipsy .tipsy-inner {
+	padding:7px;
+
+}
+
+@font-face {
+    font-family: 'ProximaNova Bold';
+    src: url('/assets/proximanova-bold-webfont.eot');
+    src: url('/assets/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/proximanova-bold-webfont.woff') format('woff'),
+         url('/assets/proximanova-bold-webfont.ttf') format('truetype'),
+         url('/assets/proximanova-bold-webfont.svg#ProximaNovaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('/assets/proximanova-regular-webfont.eot');
+    src: url('/assets/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/proximanova-regular-webfont.woff') format('woff'),
+         url('/assets/proximanova-regular-webfont.ttf') format('truetype'),
+         url('/assets/proximanova-regular-webfont.svg#ProximaNova') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
